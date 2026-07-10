@@ -14,50 +14,48 @@ Core features such as journaling, tarot readings, affirmations, and task managem
 
 ### Current Progress
 
-| Feature                          | Status                    |
-| -------------------------------- | ------------------------- |
-| Journal (AI mood analysis)       | [ ]                       |
-| Tarot (AI readings + animations) | [ ]                       |
-| Affirmations (voice + AI)        | [ ]                       |
-| Task Management                  | [ ]                       |
-| Homepage (3D + animations)       | [ ]                       |
-| Google Authentication            | [x]                       |
-| Pinterest Integration            | [x]                       |
-| Spotify Integration              | [x]                       |
-| Database (Supabase Postgres)     | [x]                       |
-| Multi-user Support               | [x]                       |
+- [ ] Journal (AI mood analysis)
+- [ ] Tarot (AI readings + animations)
+- [ ] Affirmations (voice + AI)
+- [ ] Task Management
+- [ ] Homepage (3D + animations)
+- [x] Google Authentication
+- [x] Pinterest Integration
+- [x] Spotify Integration
+- [x] Database (Supabase Postgres)
+- [x] Multi-user Support
 
 Currently, the application uses a **local SQLite database**, meaning all users share the same dataset during development.
 
 ---
 
-## 🌟 Features
+##  Features
 
-### 📓 Journal
+###  Journal
 
 * Rich text journaling interface
 * AI-powered mood analysis
 * Persistent storage via backend APIs
 * Retrieval of past entries
 
-### 🔮 Tarot
+###  Tarot
 
 * Interactive 3-card tarot system
 * Animated shuffle experience
 * AI-generated interpretations
 
-### 🎤 Affirmations
+###  Affirmations
 
 * Voice-to-text input (Web Speech API)
 * AI-generated affirmations
 * Text + audio persistence
 
-### ✅ Taskbar
+###  Taskbar
 
 * Create, complete, and delete tasks
 * Real-time sync with backend
 
-### 🏠 Homepage
+###  Homepage
 
 * 3D animated disco ball (Three.js)
 * Interactive navigation tiles
@@ -65,7 +63,7 @@ Currently, the application uses a **local SQLite database**, meaning all users s
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ### Frontend
 
@@ -100,7 +98,7 @@ Currently, the application uses a **local SQLite database**, meaning all users s
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
 ```mermaid
 flowchart LR
@@ -154,7 +152,7 @@ flowchart LR
 
 ---
 
-## ⚙️ Getting Started
+##  Getting Started
 
 ### Backend Setup
 
@@ -182,7 +180,7 @@ npm run dev
 
 ---
 
-## 🔑 Environment Variables
+##  add your environment variables
 
 ### Backend (`.env`)
 
@@ -201,7 +199,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=
 
 ---
 
-## 🗺 Roadmap
+##  Roadmap
 
 * [ ] Supabase Auth (Google OAuth)
 * [ ] Multi-user support
@@ -215,7 +213,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 girlhub/
@@ -236,13 +234,13 @@ girlhub/
 
 ---
 
-## 💡 Vision
+##  Vision
 
 girlHub aims to become a **personal emotional operating system** — blending journaling, self-reflection, AI insights, and aesthetic interaction into a single cohesive digital space.
 
 ---
 
-## 📌 Notes
+##  Notes
 
 * This project is currently optimized for development environments.
 * Production readiness (auth, scaling, deployment) is in progress.
