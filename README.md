@@ -29,6 +29,20 @@ Currently, the application uses a **local SQLite database**, meaning all users s
 
 ---
 
+##  Roadmap
+
+* [ ] Supabase Auth (Google OAuth)
+* [ ] Multi-user support
+* [ ] Migration to Supabase PostgreSQL
+* [ ] Pinterest API integration
+* [ ] Spotify Web API (dynamic + mood-based playlists)
+* [ ] Journal drawing/doodle canvas
+* [ ] Export journal entries (PDF/Image)
+* [ ] Dark/Light theme toggle
+* [ ] Production deployment
+
+---
+
 ##  Features
 
 ###  Journal
@@ -196,20 +210,6 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 NEXT_PUBLIC_SUPABASE_URL=
 NEXT_PUBLIC_SUPABASE_ANON_KEY=
 ```
-
----
-
-##  Roadmap
-
-* [ ] Supabase Auth (Google OAuth)
-* [ ] Multi-user support
-* [ ] Migration to Supabase PostgreSQL
-* [ ] Pinterest API integration
-* [ ] Spotify Web API (dynamic + mood-based playlists)
-* [ ] Journal drawing/doodle canvas
-* [ ] Export journal entries (PDF/Image)
-* [ ] Dark/Light theme toggle
-* [ ] Production deployment
 
 ---
 
