@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(180deg, #fff4e0 0%, #ffe3f0 50%, #ffd6e8 100%);
+  font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+}
+
+.sparkle {
+  position: absolute;
+  pointer-events: none;
+  animation: twinkle 2.5s ease-in-out infinite;
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.2; transform: scale(0.8) rotate(0deg); }
+  50% { opacity: 1; transform: scale(1.2) rotate(20deg); }
+}
