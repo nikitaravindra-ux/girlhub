@@ -1,4 +1,4 @@
-# girlHub
+# $${\color{pink}girlHub}$$
 
 **girlHub** is a full-stack journaling and self-care web application that combines creativity, emotional tracking, and AI-powered insights into a playful, scrapbook-inspired experience.
 
